@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+            android:title="사용자 환경설정">
+        <android.support.v7.preference.ListPreference
+                android:defaultValue="1"
+                android:title="성별" android:entries="@array/listGenderEntries"
+                android:entryValues="@array/listGenderValues" android:key="list_preference_1"/>
+        <android.support.v7.preference.ListPreference
+                android:defaultValue="1"
+                android:title="연령대" android:entries="@array/listAgeEntries"
+                android:entryValues="@array/listAgeValues" android:key="list_preference_2"/>
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
